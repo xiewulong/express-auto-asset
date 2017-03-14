@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "express auto asset",
   "main": "index.js",
+  "scripts": {
+    "test": "node ./sample/app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiewulong/express-auto-asset.git"
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/xiewulong/express-auto-asset#readme",
   "dependencies": {
     "express": "^4.15.2",
+    "express-auto-controller": "^0.0.2",
     "morgan": "^1.8.1"
   }
 }
