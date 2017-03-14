@@ -1,0 +1,28 @@
+{
+  "name": "express-auto-asset",
+  "version": "0.0.1",
+  "description": "express auto asset",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiewulong/express-auto-asset.git"
+  },
+  "keywords": [
+    "express",
+    "auto",
+    "asset"
+  ],
+  "author": {
+    "name": "xiewulong",
+    "email": "xiewulong@vip.qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiewulong/express-auto-asset/issues"
+  },
+  "homepage": "https://github.com/xiewulong/express-auto-asset#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  }
+}
