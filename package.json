@@ -1,6 +1,6 @@
 {
   "name": "express-auto-asset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "express auto asset",
   "main": "index.js",
   "scripts": {
