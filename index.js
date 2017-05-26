@@ -11,6 +11,7 @@ const path = require('path');
 
 const crc32 = require('crc32');
 const express = require('express');
+const mkdirp = require('mkdirp');
 
 const defaultOptions = {
 	basePath: '@static',
@@ -130,6 +131,11 @@ class Asset {
 		bundle.baseUrl = this.app.alias(`${this.options.baseUrl}/${this.options.publishPath}/${basename}`);
 		if(fs.existsSync(bundle.basePath)) {
 			return;
+		}
+
+		let dirname = path.dirname(bundle.basePath);
+		if(!fs.existsSync(dirname)) {
+			mkdirp.sync(dirname);
 		}
 
 		fs.symlinkSync(sourcePath, bundle.basePath, 'dir');

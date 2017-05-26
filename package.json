@@ -23,7 +23,8 @@
   "homepage": "https://github.com/xiewulong/express-auto-asset#readme",
   "dependencies": {
     "crc32": "^0.2.2",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
