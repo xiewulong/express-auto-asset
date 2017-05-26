@@ -10,7 +10,7 @@ module.exports = {
 
 	index(req, res, next) {
 		res.render('home', {
-			title: 'foo home',
+			title: 'home',
 		});
 	},
 
