@@ -22,8 +22,15 @@
   },
   "homepage": "https://github.com/xiewulong/express-auto-asset#readme",
   "dependencies": {
-    "express": "^4.15.2",
-    "express-auto-controller": "^0.0.2",
-    "morgan": "^1.8.1"
+    "crc32": "^0.2.2",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "express-auto-controller": "^0.0.6",
+    "jquery": "^3.2.1",
+    "morgan": "^1.8.1",
+    "peppa": "^0.0.6",
+    "pug": "^2.0.0-rc.1"
   }
 }
