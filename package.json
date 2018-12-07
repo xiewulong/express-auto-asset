@@ -1,6 +1,6 @@
 {
   "name": "express-auto-asset",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "express auto asset",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "express-auto-controller": "^0.0.6",
     "jquery": "^3.2.1",
     "morgan": "^1.8.1",
-    "peppa": "^0.0.6",
+    "peppa": "^0.0.7",
     "pug": "^2.0.0-rc.1"
   }
 }
